@@ -35,12 +35,9 @@ allprojects {
 
         maven {
             name 'jboss-nexus'
-            url "http://repository.jboss.org/nexus/content/groups/public/"
+            url "http://maven.aliyun.com/nexus/content/groups/public"
         }
-        maven {
-            name "jboss-snapshots"
-            url "http://snapshots.jboss.org/maven2/"
-        }
+
     }
 }
 
